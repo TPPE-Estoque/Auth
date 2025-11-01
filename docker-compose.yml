@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+  auth_backend:
+    build: .
+    container_name: django_auth_backend
+    command: python src/manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./src:/app/src 
+    ports:
+      - "8001:8000"
+    environment:
+      - POSTGRES_NAME=${AUTH_POSTGRES_DB}
+      - POSTGRES_USER=${AUTH_POSTGRES_USER}
+      - POSTGRES_PASSWORD=${AUTH_POSTGRES_PASSWORD}
+      - DJANGO_SECRET_KEY=${DJANGO_SECRET_KEY}
+      - DJANGO_DEBUG=${DJANGO_DEBUG}
+      - DB_HOST=auth_db
+    depends_on:
+      - auth_db
+
+  auth_db:
+    image: postgres:15
+    container_name: postgres_auth_db
+    volumes:
+      - postgres_auth_data:/var/lib/postgresql/data/
+    environment:
+      - POSTGRES_DB=${AUTH_POSTGRES_DB}
+      - POSTGRES_USER=${AUTH_POSTGRES_USER}
+      - POSTGRES_PASSWORD=${AUTH_POSTGRES_PASSWORD}
+    ports:
+      - "5434:5432"
+
+volumes:
+  postgres_auth_data:
