@@ -18,7 +18,7 @@ Este projeto é dividido em múltiplos repositórios. Acesse os outros component
 
 -   **[📄 Documentação](https://github.com/EcoStock-organization/ecostock-docs)**
 -   **[⚙️ Backend](https://github.com/EcoStock-organization/Backend)**
--   **[🖥️ Frontend](https://github.com/EcoStock-organization/Frontend)**
+-   **[🖥️ Frontend](https://github.com/EcoStock-organization/ecostock-frontend)**
 
 ## 🚀 Como Rodar o Projeto
 
