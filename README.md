@@ -33,7 +33,7 @@ Este serviço é totalmente containerizado. Você só precisa do Docker instalad
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/EcoStock-organization/Auth.git
+    git clone https://github.com/EcoStock-organization/ecostock-auth.git
     cd Auth
     ```
 
