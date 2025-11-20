@@ -16,9 +16,9 @@ Este repositório contém o código-fonte de um microsserviço de autenticação
 
 Este projeto é dividido em múltiplos repositórios. Acesse os outros componentes através dos links abaixo:
 
--   **[📄 Documentação](https://github.com/TPPE-Estoque/Doc)**
--   **[⚙️ Backend](https://github.com/TPPE-Estoque/Backend)**
--   **[🖥️ Frontend](https://github.com/TPPE-Estoque/Frontend)**
+-   **[📄 Documentação](https://github.com/EcoStock-organization/Doc)**
+-   **[⚙️ Backend](https://github.com/EcoStock-organization/Backend)**
+-   **[🖥️ Frontend](https://github.com/EcoStock-organization/Frontend)**
 
 ## 🚀 Como Rodar o Projeto
 
@@ -33,7 +33,7 @@ Este serviço é totalmente containerizado. Você só precisa do Docker instalad
 
 1.  **Clone o repositório:**
     ```bash
-    git clone https://github.com/TPPE-Estoque/Auth.git
+    git clone https://github.com/EcoStock-organization/Auth.git
     cd Auth
     ```
 
