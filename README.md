@@ -17,7 +17,7 @@ Este repositório contém o código-fonte de um microsserviço de autenticação
 Este projeto é dividido em múltiplos repositórios. Acesse os outros componentes através dos links abaixo:
 
 -   **[📄 Documentação](https://github.com/EcoStock-organization/ecostock-docs)**
--   **[⚙️ Backend](https://github.com/EcoStock-organization/Backend)**
+-   **[⚙️ Backend](https://github.com/EcoStock-organization/ecostock-backend)**
 -   **[🖥️ Frontend](https://github.com/EcoStock-organization/ecostock-frontend)**
 
 ## 🚀 Como Rodar o Projeto
